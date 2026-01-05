@@ -1,2 +1,4 @@
 # CSS-Practice-First
-this is my css pactice file on github
+
+This is my css pactice file on github.
+In this repo, I commint my all CSS Practice File.
