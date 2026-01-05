@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assiment</title>
+    <link rel="stylesheet" href="Assiment Q2.css">
+</head>
+<body>
+    <form action="/action">
+        <h3>F O R M</h3>
+        <div id="name">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div id="sex">
+            <label>Sex: </label>
+            <input type="radio" name="sex" id="male" value="m">
+            <label for="male">Male</label>
+            <input type="radio" name="sex" id="female" value="f">
+            <label for="female">Female</label>
+        </div>
+        <div id="con">
+            <label for="country">country: </label>
+            <select name="country" id="country">
+                <option >Select an option</option>
+                <option value="Ind">India</option>
+                <option value="Usa">USA</option>
+                <option value="rus">Rusia</option>
+            </select>
+        </div>
+        <div id="mss">
+            <label for="mss">Massage:</label>
+            <br>
+            <textarea name="mss" id="mss" rows="3" cols="30"></textarea>
+        </div>
+        <div id="che">
+            <input type="checkbox" name="sub" id="sub">
+            <label for="sub"> Subscribe?</label>
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
